@@ -99,11 +99,18 @@ h3 {
   color:#aa30b0;
 }
 .isShown-container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  padding: 0 25px 0 25px;
   border-radius: 10px;
-  margin: 15px 35px;
-  padding: 0 30px;
-  background-color: #9090a4;
+   margin: 15px 50px;
+  /* padding: 0 30px; */ 
+  /* background-color: #9090a4; */
   height: max-content;
+  
 }
 .about-subtitle{
   padding-top: 15px;
@@ -112,6 +119,8 @@ h3 {
   border-bottom: 1px #aa30b0 ;
 }
 .about-text{
+  text-align: justify;
+  line-height: 25px;
   padding: 10px 2px;
   margin: 0px 0 10px 10px;
   color: white;
@@ -137,7 +146,18 @@ h3 {
  
 }
 
+/* ---------------------- React Icons -------------------------- */
+.side-bar-left{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
 
+}
+.icon{
+  font-size: 35px;
+  color: #aa30b0;
+  margin: 10px;
+}
 
 @keyframes App-logo-spin {
   from {

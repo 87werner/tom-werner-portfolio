@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 const Home = () => {
   return (
@@ -16,13 +17,25 @@ const Home = () => {
           change,
           <br />I am a fully qualified pharmacist and independent prescribing
           pharmacist.
-        </p><br/>
-        <p className="text text-home">
-          After 10 years in the pharmacy industry I have decided to embark on a career in tech industry as software engineer.
-          
         </p>
-
+        <br />
+        <p className="text text-home">
+          After 10 years in the pharmacy industry I have decided to embark on a
+          career in tech industry as software engineer.
+        </p>
       </div>
+     
+        <div className="side-bar-left">
+          <ul className="ul-icon">
+            <a href="https://github.com/87werner">
+              <AiFillGithub className="icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/tom-werner-0a0b9b63/">
+              <AiOutlineLinkedin className="icon" />
+            </a>
+          </ul>
+        </div>
+      
     </div>
   );
 };
