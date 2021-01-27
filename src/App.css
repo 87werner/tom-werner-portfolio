@@ -145,8 +145,28 @@ h3 {
  justify-content: center;
  
 }
+/* ---------------------- Projects Tech Section -------------------------- */
+.project-container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.proj-title{
+  padding-top: 35px;
+  margin-top: 0;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
 
-/* ---------------------- React Icons -------------------------- */
+.proj-brief{
+  margin-top: 0;
+  color: #ffffff;
+  width: 50%;
+  text-align: justify;
+  line-height: 25px;
+}
+
+/* ----------------------------- React Icons ---------------------------- */
 .side-bar-left{
   display: flex;
   justify-content: left;
