@@ -30,7 +30,7 @@ const About = () => {
       <div className="Tech-container">
         <Tech 
         title="Some of the tech that I like to play with:"
-       
+        title2="Tech that I want to learn more about:"
          />
       </div>
     </div>

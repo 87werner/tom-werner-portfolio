@@ -14,9 +14,14 @@ const Home = () => {
         <p className="text text-home">
           I'm a software developer with a twist, before embarking on a career
           change,
-          <br />I was a fully qualified pharmacist and independent prescribing
+          <br />I am a fully qualified pharmacist and independent prescribing
           pharmacist.
+        </p><br/>
+        <p className="text text-home">
+          After 10 years in the pharmacy industry I have decided to embark on a career in tech industry as software engineer.
+          
         </p>
+
       </div>
     </div>
   );
