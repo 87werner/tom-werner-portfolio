@@ -7,10 +7,10 @@ const Nav = () => {
       <div className="nav-container">
       
         <ul>
-              <Link className="link-tom">T O<br/>M</Link>
-              <Link className="link">Projects</Link>
-              <Link className="link">About</Link>
-              <Link className="link">Home</Link>
+              <Link className="link-tom" to="/">T O<br/>M</Link>
+              <Link className="link" to="/projects">Projects</Link>
+              <Link className="link" to="/about">About</Link>
+              <Link className="link" to="/">Home</Link>
               
        
         </ul>

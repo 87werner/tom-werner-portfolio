@@ -72,6 +72,28 @@ h3 {
   line-height: 25px;
 }
 
+/* ---------------------- About Page -------------------------- */
+.about-container{
+  
+  padding-top: 45px; 
+}
+.about-title{
+  text-align: center;
+  background-color: #9594c4;
+ 
+  cursor: pointer;
+  margin: 10px;
+  color:#aa30b0;;
+}
+.about-subtitle{
+  margin: 0;
+  color: white;
+}
+.about-text{
+  margin: 0;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -6,13 +6,15 @@ import About from './components/About'
 
 function App() {
   return (
+    <div>
     <BrowserRouter>
       <Nav />
       <Switch>
         <Route exact path="/" render={()=> <Home />} />
-        <Route exact path="/about" render={<About/>}/>
+        <Route  path="/About" component={About}/>
       </Switch>
     </BrowserRouter>
+    </div>
   );
 }
 
