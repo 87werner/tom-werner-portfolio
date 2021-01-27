@@ -73,26 +73,46 @@ h3 {
 }
 
 /* ---------------------- About Page -------------------------- */
-.about-container{
-  
+.first-AboutCard{
+  margin-top: 25px;
   padding-top: 45px; 
+}
+.title-container{
+
 }
 .about-title{
   text-align: center;
   background-color: #9594c4;
- 
+  padding: 0 25px;
   cursor: pointer;
-  margin: 10px;
-  color:#aa30b0;;
+  margin: 10px 10px 0 10px;
+  color:#aa30b0;
+}
+.isShown-container{
+  margin: 15px 35px;
+  padding: 0 30px;
+  background-color: #9090a4;
+  height: max-content;
 }
 .about-subtitle{
-  margin: 0;
+  padding-top: 15px;
+  margin: 0px 0 10px 10px;
   color: white;
+  border-bottom: 1px #aa30b0 ;
 }
 .about-text{
-  margin: 0;
+  padding: 10px 2px;
+  margin: 0px 0 10px 10px;
   color: white;
 }
+
+/* ---------------------- About Tech Section -------------------------- */
+.tech-title{
+  color: #aa30b0;
+ 
+}
+
+
 
 @keyframes App-logo-spin {
   from {
